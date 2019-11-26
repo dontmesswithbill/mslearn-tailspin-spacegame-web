@@ -1,11 +1,4 @@
 # ASP.NET Core
-- task: SonarCloudPrepare@1
-  inputs:
-    SonarCloud: 'space-game-service-connection'
-    organization: 'tonytest'
-    scannerMode: 'MSBuild'
-    projectKey: 'b36b03ef779680e6d74328718da815938a2a34f0'
-    projectName: 'space-game-webtest'
 # Build and test ASP.NET Core projects targeting .NET Core.
 # Add steps that run tests, create a NuGet package, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
